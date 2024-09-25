@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(180deg, #1D1E28 0.12%, #261C2D 94.84%, #261A2D 100%);
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+main{
+    background-image: url(assets/images/bg-stars.svg);
+background-repeat: no-repeat;
+
+}
+h1 {
+font-size: 1.8rem;
+font-weight: 700;
+line-height: 2.4rem;
+letter-spacing: 0.61rem;
+color: rgba(255, 255, 255, 1);
+margin-top: 14.2rem;
+text-align: center;
+}
+
+section {
+    display: flex;
+    gap: 1.6rem;
+    margin-top: 5.4rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    align-items: center;
+}
+
+.clock {
+    width: 7rem;
+    height: 6.6rem;
+    background: rgba(52, 54, 80, 1);
+
+}
+
+
+.clock p { 
+    font-family: Red Hat Text;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 7.1rem;
+    letter-spacing: -1.0800000429153442px;
+    text-align: center;
+    color: rgba(251, 94, 132, 1);
+
+}
+
+.time{
+    font-family: Red Hat Text;
+font-size: 0.7rem;
+font-weight: 700;
+line-height: 0.926rem;
+letter-spacing: 2.9593749046325684px;
+text-align: center;
+color: rgba(131, 133, 169, 1);
+
+}
+
+footer {
+    background-image: url(assets/images/pattern-hills.svg);
+background-size:     100% 16.8rem;
+background-repeat: no-repeat;
+margin-top: 17rem;
+padding: 9rem 11.9rem 5rem;
+display: flex;
+align-items: center;
+}
+
+.images {
+    display: flex;
+    gap: 3.2rem;
+  
+}
+
+.hillsimage{
+    width: 100%;
+height: 16.8rem;
+}
